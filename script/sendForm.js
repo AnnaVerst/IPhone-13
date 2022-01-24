@@ -6,7 +6,6 @@ const sendForm = () => {
   const modalClose = modal.querySelector(".modal__close");
   const modalSubmit = modal.querySelector(".modal__submit");
   const modalForm = modal.querySelector("form");
-  const modalInput = modal.querySelector("modal__input");
 
   btnOpenModal.addEventListener("click", () => {
     modal.style.display = "flex";
