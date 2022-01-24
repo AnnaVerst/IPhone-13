@@ -5,8 +5,6 @@ const linkCharacteristics = document.querySelector('.card-details__link-characte
 
 const newArray = [...links, linkCharacteristics]
 
-console.log(newArray);
-
 newArray.forEach((element)=> {                                   //задаем ссылкам массиву функцию (=>)
     element.addEventListener('click', (event) => {               // addEventListener(возможность добавлять нескольео обработчиков) добавляем обработчик КЛИК и какое то действие(event), далее прописываем функцию
         event.preventDefault()                                   // отменяем преброс с ссылки на секцию

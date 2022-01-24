@@ -42,7 +42,7 @@ const getData = () => {
         }
     }
 
-    const getGoods = () =>{
+    const getGoods = () => {
         fetch('/cross-sell-dbase/dbase.json')      //1 запрашивает данные, из файла json
         .then((response) => {
             if(response.ok) {
